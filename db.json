@@ -1,0 +1,401 @@
+{
+  "lojas": [
+    {
+      "id": "pokemon-store",
+      "name": "Pokémon & Store",
+      "category": "Brinquedo ",
+      "deliveryEstimate": "25m",
+      "rating": 4.9,
+      "imagePath": "assets/img/lojas/breadbakery.png",
+      "about": "A Pokémon & Store tem 40 anos de mercado. aqui voce encontra Brinquedos e alegria por seus filhos. Compre e confira.",
+      "hours": "Funciona de segunda à sexta, de 8h às 23h"
+    },
+    {
+      "id": "pokemon-center",
+      "name": "Pokémon Center",
+      "category": "Brinquedos e Jogos",
+      "deliveryEstimate": "100m",
+      "rating": 3.5,
+      "imagePath": "assets/img/lojas/burgerhouse.png",
+      "about": "10 anos no Mercado, venda e Desenvolvimento de Jogos ",
+      "hours": "Funciona todos os dias, de 10h às 22h"
+    },
+    {
+      "id": "pokemon-square",
+      "name": "Pokémon Square",
+      "category": "Brinquedos e Acessorio",
+      "deliveryEstimate": "30-40m",
+      "rating": 4.8,
+      "imagePath": "assets/img/lojas/coffeecorner.png",
+      "about": "Empresa conceituada no Mercado de Brinquedos a mais de 15 anos",
+      "hours": "Funciona de segunda à sábado, de 6h às 22h"
+    },
+    {
+      "id": "pokemon-luanda",
+      "name": "Pokémon Luanda",
+      "category": "Brinquedos e Fantasias",
+      "deliveryEstimate": "75m",
+      "rating": 4.1,
+      "imagePath": "assets/img/lojas/greenfood.png",
+      "about": "Loja especializada em Brnquedos e Fantasia e Acessorio",
+      "hours": "Somente em horário de almoço, das 11h às 15h"
+    },
+    {
+      "id": "Pokemon-rio",
+      "name": "Pokémon Rio",
+      "category": "Branquedos e Jogos",
+      "deliveryEstimate": "40-65m",
+      "rating": 4.5,
+      "imagePath": "assets/img/lojas/icy.png",
+      "about": "Pokémon Rio e empresa que a tua a mais 48 fabricando e vendendo Brinquedos e Acessorio",
+      "hours": "Funciona todos os dias, de 10h às 1h"
+    },
+    {
+      "id": "poke-tore-nit",
+      "name": "Pokémon Store Nitéroi",
+      "category": "Brinquedos e Games",
+      "deliveryEstimate": "20m",
+      "rating": 4.4,
+      "imagePath": "assets/img/lojas/tasty.png",
+      "about": "Pokémon Store Niteroi uma das do Grupo Store especializado em Brinquedos e Gemes...",
+      "hours": "Funciona de segunda à sábado, de 8h às 23h"
+    }
+  ],
+  "menu": [
+    {
+      "id": "moltres",
+      "imagePath": "assets/img/pokemon/cupcake.png",
+      "name": "Moltres",
+      "description": "Um lendário pássaro Pokémon, ao bater as flameja, ate o céu noturno fica vermelho",
+      "price": 8.7,
+      "lojaId": "pokemon-store"
+    },
+    {
+      "id": "zapdors",
+      "imagePath": "assets/img/pokemon/donut.png",
+      "name": "Zapdos",
+      "description": "Diz-se que este Pokémon lendario passaro aparece quando o céu fica escuro e os raios caem.",
+      "price": 2.5,
+      "lojaId": "pokemon-store"
+    },
+    {
+      "id": "primeape",
+      "imagePath": "assets/img/pokemon/bread.png",
+      "name": "Primeape",
+      "description": "ele deixa de ficar com raiva apenas quando ninguem mais esta por perto. Ver este momento é muito dificil.  ",
+      "price": 15.9,
+      "lojaId": "pokemon-store"
+    },
+    {
+      "id": "fearow",
+      "imagePath": "assets/img/pokemon/burger.png",
+      "name": "Fearow",
+      "description": "Um Pokémon que remonta há muitos anos. Se percebe o perigo, voa alto e para longe, instantaneamente.",
+      "price": 18.5,
+      "lojaId": "pokemon-center"
+    },
+    {
+      "id": "snorlax",
+      "imagePath": "assets/img/pokemon/fries.png",
+      "name": "Snolax",
+      "description": "Não é satisfeito, a menos que coma mais de 880 libras de comida todos os dias. Quando termina de comer, vai dormir imediatamente.",
+      "price": 5.5,
+      "lojaId": "pokemon-center"
+    },
+    {
+      "id": "mewtwo",
+      "imagePath": "assets/img/pokemon/coke.png",
+      "name": "Mewtwo",
+      "description": "Seu DNA é quase o mesmo que o de Mew. No entanto, seu tamanho e disposição são muito diferentes.",
+      "price": 4.5,
+      "lojaId": "pokemon-center"
+    },
+    {
+      "id": "blastoise",
+      "imagePath": "assets/img/pokemon/capp.png",
+      "name": "Blastoise",
+      "description": "Esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retira dentro de sua concha.",
+      "price": 9.9,
+      "lojaId": "pokemon-square"
+    },
+    {
+      "id": "artigo",
+      "imagePath": "assets/img/pokemon/espreso.png",
+      "name": "Artigo",
+      "description": "Um lendário pássaro Pokémon. Congela a água que está contida no ar do inverno e faz nevar. ",
+      "price": 12.5,
+      "lojaId": "pokemon-square"
+    },
+    {
+      "id": "pikachu",
+      "imagePath": "assets/img/pokemon/starb.png",
+      "name": "Pikachu",
+      "description": "O mais pedido da casa. O verdadeiro café americano pura água.",
+      "price": 15.6,
+      "lojaId": "pokemon-square"
+    },
+    {
+      "id": "vaporeon",
+      "imagePath": "assets/img/pokemon/zlasagna.png",
+      "name": "Vaporeon",
+      "description": "Um Pokémon selvagem que morreu nos tempos antigos. Foi ressuscitado usando DNA retirado de âmbar.",
+      "price": 14.9,
+      "lojaId": "pokemon-luanda"
+    },
+    {
+      "id": "aerodatilo",
+      "imagePath": "assets/img/pokemon/greensandwich.png",
+      "name": "Aerodatilo",
+      "description": "Um Pokémon selvagem que morreu nos tempos antigos. Foi ressuscitado usando DNA retirado de âmbar.",
+      "price": 10.5,
+      "lojaId": "pokemon-luanda"
+    },
+    {
+      "id": "mew",
+      "imagePath": "assets/img/pokemon/ceasar.png",
+      "name": "Mew",
+      "description": "Quando vistos através de um microscópio, os cabelos curtos, finos e delicados deste Pokémon podem ser vistos.",
+      "price": 33.9,
+      "lojaId": "pokemon-luanda"
+    },
+    {
+      "id": "jolteon",
+      "imagePath": "assets/img/pokemon/sunday.png",
+      "name": "Jolteon",
+      "description": "Se estiver irritado ou assustado, o pêlo por todo o corpo se arrepia como agulhas afiadas que perfuram os inimigos.",
+      "price": 21.5,
+      "lojaId": "Pokemon-rio"
+    },
+    {
+      "id": "dragonite",
+      "imagePath": "assets/img/pokemon/chocpop.png",
+      "name": "Dragonite",
+      "description": "Dizem que este Pokémon vive em algum lugar no mar e que voa. No entanto, estes são apenas rumores.",
+      "price": 8.5,
+      "lojaId": "Pokemon-rio"
+    },
+    {
+      "id": "kabutops",
+      "imagePath": "assets/img/pokemon/icestd.png",
+      "name": "Kabutops",
+      "description": "Um nadador magro e rápido. Cortou sua presa com suas foices afiadas e bebeu os líquidos do corpo.",
+      "price": 1.5,
+      "lojaId": "Pokemon-rio"
+    },
+    {
+      "id": "dratini",
+      "imagePath": "assets/img/pokemon/cup.png",
+      "name": "Dratini",
+      "description": "Considerado há muito tempo um mito, a existência desse Pokémon foi confirmada apenas recentemente por um pescador que o pegou.",
+      "price": 5.5,
+      "lojaId": "poke-tore-nit"
+    },
+    {
+      "id": "flareon",
+      "imagePath": "assets/img/pokemon/straw.png",
+      "name": "Flareon",
+      "description": "Considerado há muito tempo um mito, a existência desse Pokémon foi confirmada apenas recentemente por um pescador que o pegou.",
+      "price": 40.5,
+      "lojaId": "poke-tore-nit"
+    },
+    {
+      "id": "charizard",
+      "imagePath": "assets/img/pokemon/cake.png",
+      "name": "Charizard",
+      "description": "Cospe fogo quente o suficiente para derreter pedras. Pode causar incêndios florestais soprando chamas.",
+      "price": 5.9,
+      "lojaId": "poke-tore-nit"
+    }
+  ],
+  "reviews": [],
+  "orders": [
+    {
+      "name": "fernada",
+      "email": "fernandaadelino@hotmail.com",
+      "emailConfirmation": "fernandaadelino@hotmail.com",
+      "address": "rua dos invalidos",
+      "number": "111",
+      "optionalAddress": "34",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "vaporeon"
+        },
+        {
+          "quantity": 1,
+          "menuId": "mew"
+        },
+        {
+          "quantity": 1,
+          "menuId": "fearow"
+        },
+        {
+          "quantity": 1,
+          "menuId": "mewtwo"
+        },
+        {
+          "quantity": 1,
+          "menuId": "blastoise"
+        },
+        {
+          "quantity": 1,
+          "menuId": "artigo"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Antonio Adelino",
+      "email": "adelanalista@gmail.com",
+      "emailConfirmation": "adelanalista@gmail.com",
+      "address": "rua dos invalidos",
+      "number": "1234",
+      "optionalAddress": "31",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "fearow"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "valerio",
+      "email": "valerio@hotmail.com",
+      "emailConfirmation": "valerio@hotmail.com",
+      "address": "games frei",
+      "number": "35",
+      "optionalAddress": "166",
+      "paymentOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "zapdors"
+        },
+        {
+          "quantity": 4,
+          "menuId": "primeape"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Antonio Adelino",
+      "email": "adelanalista@gmail.com",
+      "emailConfirmation": "adelanalista@gmail.com",
+      "address": "rua dos invalidos",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "moltres"
+        },
+        {
+          "quantity": 3,
+          "menuId": "zapdors"
+        },
+        {
+          "quantity": 1,
+          "menuId": "primeape"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "emilia",
+      "email": "emiliaBimbi@gmail.com",
+      "emailConfirmation": "emiliaBimbi@gmail.com",
+      "address": "Costa Bastos",
+      "number": "23",
+      "optionalAddress": "apt 5",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "blastoise"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Antonio Adelino",
+      "email": "adelanalista@gmail.com",
+      "emailConfirmation": "adelanalista@gmail.com",
+      "address": "rua dos invalidos",
+      "number": "12",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "moltres"
+        },
+        {
+          "quantity": 1,
+          "menuId": "zapdors"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "Antonio Adelino",
+      "email": "adelanalista@gmail.com",
+      "emailConfirmation": "adelanalista@gmail.com",
+      "address": "rua dos invalidos",
+      "number": "123",
+      "optionalAddress": "cs2",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "zapdors"
+        },
+        {
+          "quantity": 2,
+          "menuId": "primeape"
+        },
+        {
+          "quantity": 1,
+          "menuId": "vaporeon"
+        },
+        {
+          "quantity": 1,
+          "menuId": "moltres"
+        },
+        {
+          "quantity": 1,
+          "menuId": "fearow"
+        },
+        {
+          "quantity": 1,
+          "menuId": "snorlax"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "Antonio Adelino",
+      "email": "adelanalista@gmail.com",
+      "emailConfirmation": "adelanalista@gmail.com",
+      "address": "rua dos invalidos",
+      "number": "124",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "fearow"
+        },
+        {
+          "quantity": 1,
+          "menuId": "snorlax"
+        }
+      ],
+      "id": 8
+    }
+  ]
+}
